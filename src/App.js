@@ -247,7 +247,7 @@ function App() {
 
             <LocalDatetime />
             <Link
-              href="https://github.com/Hemanthpolavarapu"
+              href="https://github.com/Hemanthpolavarapu/the-weather-forcasting"
               target="_blank"
               underline="none"
               sx={{ display: 'flex' }}

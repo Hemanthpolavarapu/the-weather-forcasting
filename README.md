@@ -14,7 +14,7 @@ A React-based weather forecasting application that allows users to search for lo
 
 ## Live Demo
 
-https://the-weather-forecasting.netlify.app
+https://the-weather-forcasting.vercel.app/
 
 ## Setup Instructions
 
@@ -65,11 +65,9 @@ If you see a "Something went wrong" error when searching for cities:
 4. **CORS Issues**: If using locally, you might encounter CORS restrictions. Consider using a CORS proxy or browser extension.
 
 ### Incorrect Time Display
-If the UTC time shown in the application is incorrect:
+If the time shown in the application is incorrect:
 
-1. The application uses the local system time to calculate and display UTC time. Ensure your system clock is correctly set.
-
-2. The displayed time is in UTC format, not your local timezone. This is intentional to provide consistent time reference regardless of user location.
+1. The application displays time in your local timezone. Ensure your system clock is correctly set.
 
 ## Technologies Used
 
